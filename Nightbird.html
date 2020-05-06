@@ -1,0 +1,35 @@
+
+<html>
+
+    <head>
+        <title>Nightbird</title>
+        <script type="text/javascript" charset="UTF-8" src="../three.js-master/build/three.js"></script>
+        <script type="text/javascript" charset="UTF-8" src="../three.js-master/examples/js/controls/OrbitControls.js"></script>
+		<script type="text/javascript" charset="UTF-8" src="../three.js-master/examples/js/controls/TrackballControls.js"></script>
+        <script type="text/javascript" charset="UTF-8" src="../three.js-master/examples/js/loaders/GLTFLoader.js"></script>
+    
+        <script type="text/javascript" src="../three.js-master/examples/js/libs/stats.min.js"></script>
+        <script type="text/javascript" src="../three.js-master/examples/js/libs/dat.gui.min.js"></script>
+    
+        <script type="text/javascript" src="./Nightbird.js"></script>
+     
+        <style>
+            body {
+                margin: 0;
+                overflow: hidden;
+            }
+        </style>
+    </head>
+    
+    <body>
+		<!-- The div holds our scene... -->
+	    <div id="webgl-output"></div>
+		<script type="text/javascript">
+			(function () {
+				 // your page initialization code here
+				// the DOM will be available here
+				init()
+			})();
+		</script>
+    </body>
+</html>
